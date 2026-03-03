@@ -5,37 +5,37 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ContactForm } from "@/components/contact-form"
 
 export const metadata: Metadata = {
-  title: "Контакты — Ademi Holding",
-  description: "Свяжитесь с Ademi Holding. Адрес, телефон, WhatsApp, время работы. Кокшетау, Казахстан.",
+  title: "Контакты — D Capital",
+  description: "Свяжитесь с D Capital. Адрес, телефон, WhatsApp, время работы. Кокшетау, Казахстан.",
 }
 
 const contacts = [
   {
     icon: Phone,
     label: "Телефон",
-    value: "+7 700 123 45 67",
-    href: "tel:+77001234567",
+    value: "+7 (777) 658-68-04",
+    href: "tel:+77776586804",
     description: "Звоните в рабочее время",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+7 700 123 45 67",
-    href: "https://wa.me/77001234567",
+    value: "+7 (705) 738-72-38",
+    href: "https://wa.me/77057387238",
     description: "Напишите нам в мессенджер",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@ademiholding.kz",
-    href: "mailto:info@ademiholding.kz",
+    value: "info@dcapital.kz",
+    href: "mailto:info@dcapital.kz",
     description: "Для письменных обращений",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    value: "@ademi_holding",
-    href: "https://instagram.com/ademi_holding",
+    value: "@dcapital.kz",
+    href: "https://instagram.com/dcapital.kz",
     description: "Следите за новостями",
   },
 ]
@@ -56,7 +56,7 @@ export default function ContactsPage() {
             Свяжитесь с нами
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/70">
-            Мы всегда готовы ответить на ваши вопросы и помочь с выбором квартиры
+            Мы всегда готовы ответить на ваши вопросы и помочь с выбором квартиры или дома
           </p>
         </div>
       </section>
@@ -132,7 +132,7 @@ export default function ContactsPage() {
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Адрес</span>
                       <span className="text-sm text-muted-foreground">
-                        г. Кокшетау, ​Улица Малика Габдуллина, 4
+                        г. Кокшетау, ул. Кошкарбаева, 45
                       </span>
                     </div>
                   </div>
@@ -143,8 +143,8 @@ export default function ContactsPage() {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Время работы</span>
-                      <span className="text-sm text-muted-foreground">Понедельник — Суббота: 09:00 — 18:00</span>
-                      <span className="text-sm text-muted-foreground">Воскресенье: выходной</span>
+                      <span className="text-sm text-muted-foreground">Понедельник — Пятница: 10:00 — 18:00</span>
+                      <span className="text-sm text-muted-foreground">Суббота — Воскресенье: выходной</span>
                     </div>
                   </div>
 
@@ -154,8 +154,8 @@ export default function ContactsPage() {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Отдел продаж</span>
-                      <a href="tel:+77001234567" className="text-sm text-accent hover:underline">
-                        +7 700 123 45 67
+                      <a href="tel:+77776586804" className="text-sm text-accent hover:underline">
+                        +7 (777) 658-68-04
                       </a>
                       <span className="text-xs text-muted-foreground">Бесплатная консультация</span>
                     </div>

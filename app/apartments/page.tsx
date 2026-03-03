@@ -3,8 +3,8 @@ import { Suspense } from "react"
 import { ApartmentsCatalog } from "@/components/apartments-catalog"
 
 export const metadata: Metadata = {
-  title: "Планировки — Ademi Holding",
-  description: "Каталог планировок квартир в жилых комплексах Ademi Holding в Кокшетау. Фильтрация по количеству комнат, площади и цене.",
+  title: "Планировки — D Capital",
+  description: "Каталог планировок квартир в жилых комплексах D Capital в Кокшетау. Фильтрация по количеству комнат, площади и цене.",
 }
 
 export default function ApartmentsPage() {

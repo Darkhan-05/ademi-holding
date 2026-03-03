@@ -9,13 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tight">ADEMI</span>
+              <span className="text-2xl font-bold tracking-tight">D CAPITAL</span>
               <span className="text-xs font-medium tracking-[0.25em] text-primary-foreground/60 uppercase">
-                Holding
+                Строим мечту
               </span>
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/70">
-              Строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости комфорт-класса в Кокшетау.
+              Строительная компания в Кокшетау. Квартиры от застройщика, комфорт-класс в чистовой отделке. Строим ЖК и частные дома.
             </p>
           </div>
 
@@ -50,14 +50,11 @@ export function Footer() {
               Наши проекты
             </h3>
             <nav className="flex flex-col gap-2">
-              <Link href="/projects/dostar" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК DOSTAR
+              <Link href="/projects/liberty" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                ЖК Liberty
               </Link>
-              <Link href="/projects/tumar-deluxe" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК Tumar Deluxe
-              </Link>
-              <Link href="/projects/orda" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК ORDA
+              <Link href="/projects/houses" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                Частные дома
               </Link>
             </nav>
           </div>
@@ -71,23 +68,23 @@ export function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span className="text-sm text-primary-foreground/70">
-                  г. Кокшетау, Акмолинская область, Казахстан
+                  г. Кокшетау, ул. Кошкарбаева, 45
                 </span>
               </div>
-              <a href="tel:+77001234567" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+              <a href="tel:+77776586804" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                +7 700 123 45 67
+                +7 (777) 658-68-04
               </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4 shrink-0 text-accent" />
                 <span className="text-sm text-primary-foreground/70">
-                  Пн-Пт: 09:00 – 20:00 <br />
-                  Сб-Вс: 11:00 – 17:00
+                  Пн-Пт: 10:00 – 18:00 <br />
+                  Сб-Вс: выходной
                 </span>
               </div>
               <div className="mt-2 flex items-center gap-3">
                 <a
-                  href="https://wa.me/77001234567"
+                  href="https://wa.me/77057387238"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -98,7 +95,7 @@ export function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://instagram.com/ademi_holding"
+                  href="https://instagram.com/dcapital.kz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -114,10 +111,10 @@ export function Footer() {
         <div className="mt-12 border-t border-primary-foreground/10 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-primary-foreground/50">
-              {"© 2024–2026 ТОО «Адеми Холдинг». Все права защищены."}
+              {"© 2022–2026 D Capital. Все права защищены."}
             </p>
             <p className="text-sm text-primary-foreground/50">
-              г. Кокшетау, ​Улица Малика Габдуллина, 4
+              г. Кокшетау, ул. Кошкарбаева, 45
             </p>
           </div>
         </div>

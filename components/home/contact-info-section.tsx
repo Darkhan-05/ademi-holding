@@ -7,24 +7,24 @@ const contacts = [
   {
     icon: MapPin,
     title: "Адрес",
-    lines: ["г. Кокшетау, ​Улица Малика Габдуллина, 4"],
+    lines: ["г. Кокшетау, ул. Кошкарбаева, 45"],
   },
   {
     icon: Phone,
     title: "Телефон",
-    lines: ["+7 700 123 45 67", "+7 716 225 00 00"],
-    href: "tel:+77001234567",
+    lines: ["+7 (777) 658-68-04"],
+    href: "tel:+77776586804",
   },
   {
     icon: Mail,
-    title: "Email",
-    lines: ["info@ademiholding.kz"],
-    href: "mailto:info@ademiholding.kz",
+    title: "WhatsApp",
+    lines: ["+7 (705) 738-72-38"],
+    href: "https://wa.me/77057387238",
   },
   {
     icon: Clock,
     title: "Режим работы",
-    lines: ["Пн–Пт: 09:00 – 20:00", "Сб-Вс: 11:00 – 17:00"],
+    lines: ["Пн–Пт: 10:00 – 18:00", "Сб-Вс: выходной"],
   },
 ]
 

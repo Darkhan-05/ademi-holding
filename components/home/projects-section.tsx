@@ -16,10 +16,10 @@ export function ProjectsSection() {
               Наши объекты
             </span>
             <h2 className="max-w-lg text-balance text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
-              Наши жилые комплексы
+              Наши проекты
             </h2>
             <p className="max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-              Каждый проект — это продуманное пространство для комфортной жизни, созданное с заботой о деталях
+              Жилые комплексы и частные дома — каждый проект создан с заботой о комфорте и качестве
             </p>
           </div>
         </AnimatedSection>
@@ -40,8 +40,8 @@ export function ProjectsSection() {
                     <div className="absolute bottom-4 left-4 right-4">
                       <span
                         className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${project.status === "Сдан"
-                            ? "bg-green-500/90 text-white"
-                            : "bg-amber-500/90 text-white"
+                          ? "bg-green-500/90 text-white"
+                          : "bg-amber-500/90 text-white"
                           }`}
                       >
                         {project.status}

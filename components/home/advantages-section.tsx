@@ -16,13 +16,13 @@ const advantages = [
   },
   {
     icon: Users,
-    title: "Малоквартирность",
-    description: "Камерные дома с небольшим количеством квартир — тишина и уют для каждого жильца.",
+    title: "ЖК и частные дома",
+    description: "Строим как многоквартирные жилые комплексы, так и индивидуальные частные дома.",
   },
   {
     icon: Building2,
     title: "Комфорт-класс",
-    description: "Высокие потолки, просторные планировки, современная архитектура.",
+    description: "Чистовая отделка, просторные планировки, современная архитектура.",
   },
   {
     icon: TreePine,
@@ -31,8 +31,8 @@ const advantages = [
   },
   {
     icon: Ruler,
-    title: "Индивидуальные проекты",
-    description: "Каждый ЖК строится по уникальному архитектурному проекту.",
+    title: "От идеи до ключей",
+    description: "D Capital берёт на себя всё — проектирование, строительство и отделку.",
   },
 ]
 
@@ -46,7 +46,7 @@ export function AdvantagesSection() {
               Наши преимущества
             </span>
             <h2 className="max-w-lg text-balance text-3xl font-bold text-secondary-foreground md:text-4xl lg:text-5xl">
-              Почему Ademi Holding
+              Почему D Capital
             </h2>
           </div>
         </AnimatedSection>

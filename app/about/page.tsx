@@ -4,9 +4,9 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Shield, Heart, Users, Star, Building2, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "О компании — Ademi Holding",
+  title: "О компании — D Capital",
   description:
-    "ТОО «Адеми Холдинг» — строительная компания в Кокшетау, специализирующаяся на строительстве малоквартирных ЖК комфорт-класса.",
+    "D Capital — строительная компания в Кокшетау. Квартиры и дома от застройщика. Более 100 000 м² построенного жилья.",
 }
 
 const values = [
@@ -18,12 +18,12 @@ const values = [
   {
     icon: Heart,
     title: "Забота",
-    description: "Мы заботимся о каждой детали — от планировки до благоустройства территории.",
+    description: "Мы заботимся о каждой детали — от планировки до чистовой отделки.",
   },
   {
     icon: Users,
     title: "Партнёрство",
-    description: "Прозрачные условия сотрудничества и честные отношения с покупателями.",
+    description: "Сотрудничаем со всеми банками. Прозрачные условия и честные отношения с покупателями.",
   },
   {
     icon: Star,
@@ -33,9 +33,10 @@ const values = [
 ]
 
 const timeline = [
-  { year: "2023", event: "Основание компании Ademi Holding. Сдача ЖК DOSTAR — первого объекта компании." },
-  { year: "2025", event: "Сдача ЖК Tumar Deluxe — комплекса бизнес-класса в «золотом квадрате» Кокшетау." },
-  { year: "2026", event: "Строительство ЖК ORDA. Укрепление позиций на рынке Кокшетау." },
+  { year: "2022", event: "Основание компании D Capital. Начало строительной деятельности в Кокшетау." },
+  { year: "2023", event: "Первые объекты. Строительство частных домов и начало проектирования ЖК Liberty." },
+  { year: "2024", event: "Более 100 000 м² построенного жилья. D Capital становится одним из ведущих застройщиков Кокшетау." },
+  { year: "2025–2026", event: "Строительство ЖК Liberty. Расширение линейки частных домов. Укрепление позиций на рынке." },
 ]
 
 export default function AboutPage() {
@@ -56,10 +57,10 @@ export default function AboutPage() {
             О компании
           </span>
           <h1 className="mx-auto max-w-3xl text-balance text-4xl font-bold text-primary-foreground md:text-5xl lg:text-6xl">
-            Строим будущее Кокшетау
+            Строим мечту в Кокшетау
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/70">
-            Ademi Holding — это команда профессионалов, создающих комфортное жильё для семей, ценящих качество и уют
+            D Capital — это команда профессионалов, создающих комфортное жильё. От идеи до ключей — берём на себя всё
           </p>
         </div>
       </section>
@@ -72,7 +73,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
                   src="/images/about-team.jpg"
-                  alt="Команда Ademi Holding"
+                  alt="Команда D Capital"
                   fill
                   className="object-cover"
                 />
@@ -84,22 +85,22 @@ export default function AboutPage() {
                   Наша миссия
                 </span>
                 <h2 className="text-balance text-3xl font-bold text-foreground md:text-4xl">
-                  Создаём пространства для счастливой жизни
+                  От идеи до ключей — D Capital берёт на себя всё
                 </h2>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  ТОО «Адеми Холдинг» — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости в городе Кокшетау, Акмолинская область, Республика Казахстан.
+                  D Capital — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости в городе Кокшетау, Акмолинская область, Республика Казахстан.
                 </p>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  Мы реализуем малоквартирные жилые комплексы комфорт-класса, сочетающие удобство, тишину и уют. Наши объекты строятся по индивидуальным архитектурным проектам с акцентом на качество и современный облик.
+                  Мы строим как многоквартирные жилые комплексы, так и частные дома. Квартиры комфорт-класса в чистовой отделке, современные дома по индивидуальным проектам — всё с акцентом на качество и доступность.
                 </p>
                 <div className="mt-4 grid grid-cols-2 gap-6">
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">3+</span>
-                    <span className="text-sm text-muted-foreground">Года опыта</span>
+                    <span className="text-3xl font-bold text-primary">100 000+</span>
+                    <span className="text-sm text-muted-foreground">м² построено</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">3</span>
-                    <span className="text-sm text-muted-foreground">Жилых комплекса</span>
+                    <span className="text-3xl font-bold text-primary">3+</span>
+                    <span className="text-sm text-muted-foreground">Года на рынке</span>
                   </div>
                 </div>
               </div>
@@ -158,7 +159,7 @@ export default function AboutPage() {
                 <div className="relative flex gap-6 pb-10 last:pb-0">
                   <div className="flex flex-col items-center">
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
-                      {item.year.slice(2)}
+                      {item.year.slice(2, 4)}
                     </div>
                     {i < timeline.length - 1 && (
                       <div className="mt-2 w-px flex-1 bg-border" />
@@ -184,17 +185,17 @@ export default function AboutPage() {
                 Галерея
               </span>
               <h2 className="text-balance text-3xl font-bold text-secondary-foreground md:text-4xl lg:text-5xl">
-                Строительный процесс
+                Наши объекты
               </h2>
             </div>
           </AnimatedSection>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { src: "/images/dostar.jpg", alt: "ЖК DOSTAR" },
+              { src: "/images/dostar.jpg", alt: "Жилой комплекс D Capital" },
               { src: "/images/hero-building.jpg", alt: "Строительство" },
               { src: "/images/interior.jpg", alt: "Интерьер квартиры" },
-              { src: "/images/about-team.jpg", alt: "Команда" },
+              { src: "/images/about-team.jpg", alt: "Команда D Capital" },
             ].map((img, i) => (
               <AnimatedSection key={i} delay={i * 100}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl">

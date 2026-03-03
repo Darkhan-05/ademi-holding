@@ -7,8 +7,8 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "Проекты — Ademi Holding",
-  description: "Жилые комплексы от Ademi Holding в Кокшетау: ЖК DOSTAR, ЖК Tumar Deluxe, ЖК ORDA.",
+  title: "Проекты — D Capital",
+  description: "Проекты от D Capital в Кокшетау: ЖК Liberty, частные дома. Квартиры и дома от застройщика.",
 }
 
 export default function ProjectsPage() {

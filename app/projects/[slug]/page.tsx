@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const project = projects.find((p) => p.slug === slug)
   if (!project) return {}
   return {
-    title: `${project.name} — Ademi Holding`,
+    title: `${project.name} — D Capital`,
     description: project.description,
   }
 }
@@ -46,7 +46,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           priority
           quality={90}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0D2D5E]/90 via-[#0D2D5E]/40 to-[#0D2D5E]/20" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#3E2723]/90 via-[#3E2723]/40 to-[#3E2723]/20" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-12 lg:px-8 lg:pb-16">
           <Link
             href="/projects"
