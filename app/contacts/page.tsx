@@ -5,37 +5,37 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ContactForm } from "@/components/contact-form"
 
 export const metadata: Metadata = {
-  title: "Контакты — Ademi Holding",
-  description: "Свяжитесь с Ademi Holding. Адрес, телефон, WhatsApp, время работы. Кокшетау, Казахстан.",
+  title: "Контакты — SB Invest Group",
+  description: "Свяжитесь с SB Invest Group. Адрес, телефон, WhatsApp, время работы. Кокшетау, Казахстан.",
 }
 
 const contacts = [
   {
     icon: Phone,
     label: "Телефон",
-    value: "+7 700 123 45 67",
-    href: "tel:+77001234567",
+    value: "+7 707 141 04 41",
+    href: "tel:+77071410441",
     description: "Звоните в рабочее время",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+7 700 123 45 67",
-    href: "https://wa.me/77001234567",
+    value: "+7 707 141 04 41",
+    href: "https://wa.me/77071410441",
     description: "Напишите нам в мессенджер",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@ademiholding.kz",
-    href: "mailto:info@ademiholding.kz",
+    value: "info@sbinvestgroup.kz",
+    href: "mailto:info@sbinvestgroup.kz",
     description: "Для письменных обращений",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    value: "@ademi_holding",
-    href: "https://instagram.com/ademi_holding",
+    value: "@sbinvestgroup",
+    href: "https://instagram.com/sbinvestgroup",
     description: "Следите за новостями",
   },
 ]
@@ -132,7 +132,7 @@ export default function ContactsPage() {
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Адрес</span>
                       <span className="text-sm text-muted-foreground">
-                        г. Кокшетау, ​Улица Малика Габдуллина, 4
+                        г. Кокшетау, ул. Магзи Абулкасымова, 164, офис 2
                       </span>
                     </div>
                   </div>
@@ -143,7 +143,7 @@ export default function ContactsPage() {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Время работы</span>
-                      <span className="text-sm text-muted-foreground">Понедельник — Суббота: 09:00 — 18:00</span>
+                      <span className="text-sm text-muted-foreground">Понедельник — Суббота: 09:00 — 19:00</span>
                       <span className="text-sm text-muted-foreground">Воскресенье: выходной</span>
                     </div>
                   </div>
@@ -154,8 +154,8 @@ export default function ContactsPage() {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Отдел продаж</span>
-                      <a href="tel:+77001234567" className="text-sm text-accent hover:underline">
-                        +7 700 123 45 67
+                      <a href="tel:+77071410441" className="text-sm text-accent hover:underline">
+                        +7 707 141 04 41
                       </a>
                       <span className="text-xs text-muted-foreground">Бесплатная консультация</span>
                     </div>

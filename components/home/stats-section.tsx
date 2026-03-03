@@ -3,9 +3,9 @@
 import { AnimatedSection } from "@/components/animated-section"
 
 const stats = [
-  { value: "3+", label: "Года на рынке" },
-  { value: "9", label: "Реализованных ЖК" },
-  { value: "100%", label: "Сданных объектов" },
+  { value: "6+", label: "Лет на рынке" },
+  { value: "5+", label: "Жилых комплексов" },
+  { value: "35к+", label: "Квадратных метров" },
 ]
 
 export function StatsSection() {

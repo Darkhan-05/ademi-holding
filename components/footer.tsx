@@ -9,13 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tight">ADEMI</span>
+              <span className="text-2xl font-bold tracking-tight">SB INVEST</span>
               <span className="text-xs font-medium tracking-[0.25em] text-primary-foreground/60 uppercase">
-                Holding
+                GROUP
               </span>
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/70">
-              Строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости комфорт-класса в Кокшетау.
+              Строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости комфорт-класса в Кокшетау. Строим с 2020 года.
             </p>
           </div>
 
@@ -50,14 +50,17 @@ export function Footer() {
               Наши проекты
             </h3>
             <nav className="flex flex-col gap-2">
-              <Link href="/projects/dostar" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК DOSTAR
+              <Link href="/projects/asar" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                ЖК ASAR
               </Link>
-              <Link href="/projects/tumar-deluxe" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК Tumar Deluxe
+              <Link href="/projects/elim-ai" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                ЖК Елім-Ай
               </Link>
-              <Link href="/projects/orda" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК ORDA
+              <Link href="/projects/bereke" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                ЖК Bereke
+              </Link>
+              <Link href="/projects/ainakol" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+                ЖК Айнакол
               </Link>
             </nav>
           </div>
@@ -71,23 +74,23 @@ export function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span className="text-sm text-primary-foreground/70">
-                  г. Кокшетау, Акмолинская область, Казахстан
+                  г. Кокшетау, ул. Магзи Абулкасымова, 164, офис 2
                 </span>
               </div>
-              <a href="tel:+77001234567" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+              <a href="tel:+77071410441" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                +7 700 123 45 67
+                +7 707 141 04 41
               </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4 shrink-0 text-accent" />
                 <span className="text-sm text-primary-foreground/70">
-                  Пн-Пт: 09:00 – 20:00 <br />
-                  Сб-Вс: 11:00 – 17:00
+                  Пн-Сб: 09:00 – 19:00 <br />
+                  Вс: Выходной
                 </span>
               </div>
               <div className="mt-2 flex items-center gap-3">
                 <a
-                  href="https://wa.me/77001234567"
+                  href="https://wa.me/77071410441"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -98,7 +101,7 @@ export function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://instagram.com/ademi_holding"
+                  href="https://instagram.com/sbinvestgroup"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -114,10 +117,10 @@ export function Footer() {
         <div className="mt-12 border-t border-primary-foreground/10 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-primary-foreground/50">
-              {"© 2024–2026 ТОО «Адеми Холдинг». Все права защищены."}
+              {"© 2020–2026 ТОО «SB Invest Group». Все права защищены."}
             </p>
             <p className="text-sm text-primary-foreground/50">
-              г. Кокшетау, ​Улица Малика Габдуллина, 4
+              г. Кокшетау, ​Улица Магзи Абулкасымова, 164
             </p>
           </div>
         </div>

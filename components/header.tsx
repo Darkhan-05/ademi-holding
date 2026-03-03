@@ -35,13 +35,13 @@ export function Header() {
           }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 lg:px-8">
-          <Link href="/" className="flex items-center gap-2" aria-label="Ademi Holding - На главную">
+          <Link href="/" className="flex items-center gap-2" aria-label="SB Invest Group - На главную">
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-primary-foreground lg:text-2xl">
-                ADEMI
+                SB INVEST
               </span>
               <span className="text-[10px] font-medium tracking-[0.25em] text-primary-foreground/70 uppercase lg:text-xs">
-                Holding
+                GROUP
               </span>
             </div>
           </Link>
@@ -60,11 +60,11 @@ export function Header() {
 
           <div className="hidden items-center gap-4 lg:flex">
             <a
-              href="tel:+77001234567"
+              href="tel:+77071410441"
               className="flex items-center gap-2 text-sm font-medium text-primary-foreground/90 transition-colors hover:text-primary-foreground"
             >
               <Phone className="h-4 w-4" />
-              +7 700 123 45 67
+              +7 707 141 04 41
             </a>
             <Button
               asChild
@@ -102,11 +102,11 @@ export function Header() {
             ))}
             <div className="mt-6 flex flex-col items-center gap-4">
               <a
-                href="tel:+77001234567"
+                href="tel:+77071410441"
                 className="flex items-center gap-2 text-lg font-medium text-primary-foreground/80"
               >
                 <Phone className="h-5 w-5" />
-                +7 700 123 45 67
+                +7 707 141 04 41
               </a>
               <Button
                 asChild

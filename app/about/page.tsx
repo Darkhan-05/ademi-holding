@@ -4,9 +4,9 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Shield, Heart, Users, Star, Building2, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "О компании — Ademi Holding",
+  title: "О компании — SB Invest Group",
   description:
-    "ТОО «Адеми Холдинг» — строительная компания в Кокшетау, специализирующаяся на строительстве малоквартирных ЖК комфорт-класса.",
+    "ТОО «SB Invest Group» — строительная компания в Кокшетау, специализирующаяся на строительстве малоквартирных ЖК комфорт-класса.",
 }
 
 const values = [
@@ -33,9 +33,9 @@ const values = [
 ]
 
 const timeline = [
-  { year: "2023", event: "Основание компании Ademi Holding. Сдача ЖК DOSTAR — первого объекта компании." },
-  { year: "2025", event: "Сдача ЖК Tumar Deluxe — комплекса бизнес-класса в «золотом квадрате» Кокшетау." },
-  { year: "2026", event: "Строительство ЖК ORDA. Укрепление позиций на рынке Кокшетау." },
+  { year: "2020", event: "Основание компании SB Invest Group. Начало строительства первых жилых объектов в Кокшетау." },
+  { year: "2024", event: "Сдача ЖК ASAR и ЖК Bereke. Успешный ввод в эксплуатацию более 15 000 м² жилья." },
+  { year: "2026", event: "Строительство ЖК Елім-Ай. Расширение портфеля проектов и внедрение новых стандартов качества." },
 ]
 
 export default function AboutPage() {
@@ -59,7 +59,7 @@ export default function AboutPage() {
             Строим будущее Кокшетау
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/70">
-            Ademi Holding — это команда профессионалов, создающих комфортное жильё для семей, ценящих качество и уют
+            SB Invest Group — это команда профессионалов, создающих комфортное жильё для семей, ценящих качество и уют
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
                   src="/images/about-team.jpg"
-                  alt="Команда Ademi Holding"
+                  alt="Команда SB Invest Group"
                   fill
                   className="object-cover"
                 />
@@ -87,19 +87,19 @@ export default function AboutPage() {
                   Создаём пространства для счастливой жизни
                 </h2>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  ТОО «Адеми Холдинг» — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости в городе Кокшетау, Акмолинская область, Республика Казахстан.
+                  ТОО «SB Invest Group» — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости в городе Кокшетау, Акмолинская область, Республика Казахстан.
                 </p>
                 <p className="text-base leading-relaxed text-muted-foreground">
                   Мы реализуем малоквартирные жилые комплексы комфорт-класса, сочетающие удобство, тишину и уют. Наши объекты строятся по индивидуальным архитектурным проектам с акцентом на качество и современный облик.
                 </p>
                 <div className="mt-4 grid grid-cols-2 gap-6">
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">3+</span>
-                    <span className="text-sm text-muted-foreground">Года опыта</span>
+                    <span className="text-3xl font-bold text-primary">6+</span>
+                    <span className="text-sm text-muted-foreground">Лет опыта</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">3</span>
-                    <span className="text-sm text-muted-foreground">Жилых комплекса</span>
+                    <span className="text-3xl font-bold text-primary">5+</span>
+                    <span className="text-sm text-muted-foreground">Жилых комплексов</span>
                   </div>
                 </div>
               </div>
@@ -191,7 +191,7 @@ export default function AboutPage() {
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              { src: "/images/dostar.jpg", alt: "ЖК DOSTAR" },
+              { src: "/images/hero-building.jpg", alt: "ЖК ASAR" },
               { src: "/images/hero-building.jpg", alt: "Строительство" },
               { src: "/images/interior.jpg", alt: "Интерьер квартиры" },
               { src: "/images/about-team.jpg", alt: "Команда" },

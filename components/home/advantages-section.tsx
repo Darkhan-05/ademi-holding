@@ -46,7 +46,7 @@ export function AdvantagesSection() {
               Наши преимущества
             </span>
             <h2 className="max-w-lg text-balance text-3xl font-bold text-secondary-foreground md:text-4xl lg:text-5xl">
-              Почему Ademi Holding
+              Почему SB Invest Group
             </h2>
           </div>
         </AnimatedSection>

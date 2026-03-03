@@ -7,7 +7,7 @@ export function HeroSection() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       <Image
         src="/images/hero-building.jpg"
-        alt="Жилой комплекс Ademi Holding в Кокшетау"
+        alt="Жилой комплекс SB Invest Group в Кокшетау"
         fill
         className="object-cover"
         priority
@@ -23,7 +23,7 @@ export function HeroSection() {
           Ваш дом в Кокшетау
         </h1>
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/80 md:text-xl">
-          Жилые комплексы комфорт-класса от надёжного застройщика. Малоквартирные дома для тех, кто ценит тишину и уют.
+          Жилые комплексы комфорт-класса от SB Invest Group. Малоквартирные дома для тех, кто ценит тишину и уют.
         </p>
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <Button

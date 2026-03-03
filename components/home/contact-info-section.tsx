@@ -7,24 +7,24 @@ const contacts = [
   {
     icon: MapPin,
     title: "Адрес",
-    lines: ["г. Кокшетау, ​Улица Малика Габдуллина, 4"],
+    lines: ["г. Кокшетау, ул. Магзи Абулкасымова, 164, офис 2"],
   },
   {
     icon: Phone,
     title: "Телефон",
-    lines: ["+7 700 123 45 67", "+7 716 225 00 00"],
-    href: "tel:+77001234567",
+    lines: ["+7 707 141 04 41"],
+    href: "tel:+77071410441",
   },
   {
     icon: Mail,
     title: "Email",
-    lines: ["info@ademiholding.kz"],
-    href: "mailto:info@ademiholding.kz",
+    lines: ["info@sbinvestgroup.kz"],
+    href: "mailto:info@sbinvestgroup.kz",
   },
   {
     icon: Clock,
     title: "Режим работы",
-    lines: ["Пн–Пт: 09:00 – 20:00", "Сб-Вс: 11:00 – 17:00"],
+    lines: ["Пн–Сб: 09:00 – 19:00", "Вс: Выходной"],
   },
 ]
 
