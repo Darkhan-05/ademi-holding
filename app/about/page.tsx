@@ -4,9 +4,9 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Shield, Heart, Users, Star, Building2, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "О компании — SB Invest Group",
+  title: "О компании — Estet Stroy",
   description:
-    "ТОО «SB Invest Group» — строительная компания в Кокшетау, специализирующаяся на строительстве малоквартирных ЖК комфорт-класса.",
+    "ТОО «Эстет Строй» — строительная компания в Кокшетау, специализирующаяся на строительстве премиальных ЖК и индивидуальных жилых домов.",
 }
 
 const values = [
@@ -33,9 +33,9 @@ const values = [
 ]
 
 const timeline = [
-  { year: "2020", event: "Основание компании SB Invest Group. Начало строительства первых жилых объектов в Кокшетау." },
-  { year: "2024", event: "Сдача ЖК ASAR и ЖК Bereke. Успешный ввод в эксплуатацию более 15 000 м² жилья." },
-  { year: "2026", event: "Строительство ЖК Елім-Ай. Расширение портфеля проектов и внедрение новых стандартов качества." },
+  { year: "2015", event: "Основание компании Estet Stroy. Начало строительства первых жилых объектов в Кокшетау." },
+  { year: "2022", event: "Успешная сдача ЖК KEREMET и ЖК ЭСТЕТ. Признание компании лидером в сегменте качественного жилья." },
+  { year: "2025", event: "Строительство масштабных проектов ЖК ATLANT и ЖК LUMIERE. Развитие направления индивидуального домостроения." },
 ]
 
 export default function AboutPage() {
@@ -59,7 +59,7 @@ export default function AboutPage() {
             Строим будущее Кокшетау
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/70">
-            SB Invest Group — это команда профессионалов, создающих комфортное жильё для семей, ценящих качество и уют
+            Estet Stroy — это команда профессионалов, создающих комфортное жильё для семей, ценящих эстетику, качество и уют
           </p>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
                   src="/images/about-team.jpg"
-                  alt="Команда SB Invest Group"
+                  alt="Команда Estet Stroy"
                   fill
                   className="object-cover"
                 />
@@ -87,19 +87,19 @@ export default function AboutPage() {
                   Создаём пространства для счастливой жизни
                 </h2>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  ТОО «SB Invest Group» — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости в городе Кокшетау, Акмолинская область, Республика Казахстан.
+                  ТОО «Эстет Строй» — строительная компания, специализирующаяся на строительстве и продаже элитной жилой недвижимости в городе Кокшетау.
                 </p>
                 <p className="text-base leading-relaxed text-muted-foreground">
-                  Мы реализуем малоквартирные жилые комплексы комфорт-класса, сочетающие удобство, тишину и уют. Наши объекты строятся по индивидуальным архитектурным проектам с акцентом на качество и современный облик.
+                  Мы реализуем жилые комплексы и частные дома, сочетающие удобство, эстетику и современные технологии. Наши объекты строятся по уникальным архитектурным проектам с акцентом на премиальное качество.
                 </p>
                 <div className="mt-4 grid grid-cols-2 gap-6">
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">6+</span>
+                    <span className="text-3xl font-bold text-accent">10+</span>
                     <span className="text-sm text-muted-foreground">Лет опыта</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-3xl font-bold text-primary">5+</span>
-                    <span className="text-sm text-muted-foreground">Жилых комплексов</span>
+                    <span className="text-3xl font-bold text-primary">8+</span>
+                    <span className="text-sm text-muted-foreground">Реализованных проектов</span>
                   </div>
                 </div>
               </div>

@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import { MortgageCalculator } from "@/components/mortgage-calculator"
 
 export const metadata: Metadata = {
-  title: "Ипотека — SB Invest Group",
-  description: "Ипотечный калькулятор SB Invest Group. Рассчитайте ежемесячный платёж по программе Отау и другим программам.",
+  title: "Ипотека — Estet Stroy",
+  description: "Ипотечный калькулятор Estet Stroy. Рассчитайте ежемесячный платёж по программам доступного жилья.",
 }
 
 export default function MortgagePage() {

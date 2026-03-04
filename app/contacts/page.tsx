@@ -5,37 +5,37 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ContactForm } from "@/components/contact-form"
 
 export const metadata: Metadata = {
-  title: "Контакты — SB Invest Group",
-  description: "Свяжитесь с SB Invest Group. Адрес, телефон, WhatsApp, время работы. Кокшетау, Казахстан.",
+  title: "Контакты — Estet Stroy",
+  description: "Свяжитесь с Estet Stroy. Адрес, телефон, WhatsApp. Кокшетау, ул. Сабатаева, 77а.",
 }
 
 const contacts = [
   {
     icon: Phone,
     label: "Телефон",
-    value: "+7 707 141 04 41",
-    href: "tel:+77071410441",
+    value: "+7 701 777 63 32",
+    href: "tel:+77017776332",
     description: "Звоните в рабочее время",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+7 707 141 04 41",
-    href: "https://wa.me/77071410441",
+    value: "+7 701 777 63 32",
+    href: "https://wa.me/77017776332",
     description: "Напишите нам в мессенджер",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "info@sbinvestgroup.kz",
-    href: "mailto:info@sbinvestgroup.kz",
+    value: "info@estetstroy.kz",
+    href: "mailto:info@estetstroy.kz",
     description: "Для письменных обращений",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    value: "@sbinvestgroup",
-    href: "https://instagram.com/sbinvestgroup",
+    value: "@estet_stroy",
+    href: "https://instagram.com/estet_stroy",
     description: "Следите за новостями",
   },
 ]
@@ -132,7 +132,7 @@ export default function ContactsPage() {
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Адрес</span>
                       <span className="text-sm text-muted-foreground">
-                        г. Кокшетау, ул. Магзи Абулкасымова, 164, офис 2
+                        г. Кокшетау, ул. Сабатаева, 77а
                       </span>
                     </div>
                   </div>
@@ -154,8 +154,8 @@ export default function ContactsPage() {
                     </div>
                     <div className="flex flex-col gap-1">
                       <span className="text-sm font-semibold text-foreground">Отдел продаж</span>
-                      <a href="tel:+77071410441" className="text-sm text-accent hover:underline">
-                        +7 707 141 04 41
+                      <a href="tel:+77017776332" className="text-sm text-accent hover:underline">
+                        +7 701 777 63 32
                       </a>
                       <span className="text-xs text-muted-foreground">Бесплатная консультация</span>
                     </div>

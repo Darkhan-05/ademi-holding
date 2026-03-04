@@ -7,8 +7,8 @@ import { AnimatedSection } from "@/components/animated-section"
 import { Button } from "@/components/ui/button"
 
 export const metadata: Metadata = {
-  title: "Проекты — SB Invest Group",
-  description: "Жилые комплексы от SB Invest Group в Кокшетау: ЖК ASAR, ЖК Елім-Ай, ЖК Bereke, ЖК Айнакол.",
+  title: "Проекты — Estet Stroy",
+  description: "Элитные жилые комплексы от Estet Stroy в Кокшетау: ЖК ATLANT, ЖК LUMIERE, ЖК KEREMET и частные дома.",
 }
 
 export default function ProjectsPage() {

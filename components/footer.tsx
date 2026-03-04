@@ -9,13 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <div className="flex flex-col">
-              <span className="text-2xl font-bold tracking-tight">SB INVEST</span>
-              <span className="text-xs font-medium tracking-[0.25em] text-primary-foreground/60 uppercase">
-                GROUP
+              <span className="text-2xl font-bold tracking-tight">ESTET STROY</span>
+              <span className="text-xs font-medium tracking-[0.25em] text-accent uppercase">
+                Строительная компания
               </span>
             </div>
             <p className="text-sm leading-relaxed text-primary-foreground/70">
-              Строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости комфорт-класса в Кокшетау. Строим с 2020 года.
+              Лидер в сегменте качественного и эстетичного жилья в Кокшетау. Строим современные жилые комплексы и индивидуальные дома с 2015 года.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export function Footer() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground"
+                  className="text-sm text-primary-foreground/70 transition-colors hover:text-accent"
                 >
                   {link.label}
                 </Link>
@@ -50,17 +50,17 @@ export function Footer() {
               Наши проекты
             </h3>
             <nav className="flex flex-col gap-2">
-              <Link href="/projects/asar" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК ASAR
+              <Link href="/projects/atlant" className="text-sm text-primary-foreground/70 transition-colors hover:text-accent">
+                ЖК ATLANT
               </Link>
-              <Link href="/projects/elim-ai" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК Елім-Ай
+              <Link href="/projects/lumiere" className="text-sm text-primary-foreground/70 transition-colors hover:text-accent">
+                ЖК LUMIERE
               </Link>
-              <Link href="/projects/bereke" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК Bereke
+              <Link href="/projects/keremet" className="text-sm text-primary-foreground/70 transition-colors hover:text-accent">
+                ЖК KEREMET
               </Link>
-              <Link href="/projects/ainakol" className="text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
-                ЖК Айнакол
+              <Link href="/projects/private-houses" className="text-sm text-primary-foreground/70 transition-colors hover:text-accent">
+                Частные дома
               </Link>
             </nav>
           </div>
@@ -74,12 +74,12 @@ export function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span className="text-sm text-primary-foreground/70">
-                  г. Кокшетау, ул. Магзи Абулкасымова, 164, офис 2
+                  г. Кокшетау, ул. Сабатаева, 77а
                 </span>
               </div>
-              <a href="tel:+77071410441" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-primary-foreground">
+              <a href="https://wa.me/77017776332" className="flex items-center gap-2 text-sm text-primary-foreground/70 transition-colors hover:text-accent">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                +7 707 141 04 41
+                +7 701 777 63 32
               </a>
               <div className="flex items-center gap-2">
                 <Clock className="h-4 w-4 shrink-0 text-accent" />
@@ -90,7 +90,7 @@ export function Footer() {
               </div>
               <div className="mt-2 flex items-center gap-3">
                 <a
-                  href="https://wa.me/77071410441"
+                  href="https://wa.me/77017776332"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -101,7 +101,7 @@ export function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://instagram.com/sbinvestgroup"
+                  href="https://instagram.com/estet_stroy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-foreground/10 text-primary-foreground/70 transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -117,10 +117,10 @@ export function Footer() {
         <div className="mt-12 border-t border-primary-foreground/10 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-primary-foreground/50">
-              {"© 2020–2026 ТОО «SB Invest Group». Все права защищены."}
+              {"© 2015–2026 ТОО «Эстет Строй». Все права защищены."}
             </p>
             <p className="text-sm text-primary-foreground/50">
-              г. Кокшетау, ​Улица Магзи Абулкасымова, 164
+              г. Кокшетау, ул. Сабатаева, 77а
             </p>
           </div>
         </div>

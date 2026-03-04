@@ -9,12 +9,12 @@ import './globals.css'
 const manrope = Manrope({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata: Metadata = {
-  title: 'SB Invest Group — Жилые комплексы комфорт-класса в Кокшетау',
-  description: 'ТОО «SB Invest Group» — строительная компания, специализирующаяся на строительстве и продаже жилой недвижимости комфорт-класса в Кокшетау. ЖК ASAR, Елім-Ай, Bereke, Айнакол.',
-  keywords: ['SB Invest Group', 'СБ Инвест Групп', 'недвижимость Кокшетау', 'квартиры Кокшетау', 'новостройки', 'ЖК ASAR', 'ЖК Елім-Ай', 'ЖК Bereke', 'ЖК Айнакол'],
+  title: 'Estet Stroy — Элитные жилые комплексы и дома в Кокшетау',
+  description: 'ТОО «Эстет Строй» — ведущая строительная компания в Кокшетау. Строительство ЖК ATLANT, LUMIERE, KEREMET и индивидуальных жилых домов премиум-класса.',
+  keywords: ['Эстет Строй', 'Estet Stroy', 'недвижимость Кокшетау', 'купить квартиру Кокшетау', 'строительство частных домов', 'ЖК ATLANT', 'ЖК LUMIERE', 'ЖК KEREMET'],
   openGraph: {
-    title: 'SB Invest Group — Жилые комплексы комфорт-класса в Кокшетау',
-    description: 'Строительная компания SB Invest Group — малоквартирные ЖК комфорт-класса в Кокшетау',
+    title: 'Estet Stroy — Элитные жилые комплексы и дома в Кокшетау',
+    description: 'Строительная компания Estet Stroy — премиум ЖК и современные дома в Кокшетау',
     type: 'website',
     locale: 'ru_KZ',
   },
